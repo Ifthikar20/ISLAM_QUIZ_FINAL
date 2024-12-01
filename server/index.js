@@ -5,7 +5,7 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 
 const app = express();
-const port = process.env.PORT || 3001; // Default port 3001 if PORT is not set in .env
+const port = Number(process.env.PORT) || 3001; // Default port 3001 if PORT is not set in .env
 
 // Middleware
 app.use(bodyParser.json());
@@ -93,7 +93,7 @@ app.get("/", (req, res) => {
 });
 
 // Start the Server
-app.listen(port, () => {
+app.listen(port, "0.0.0.0",() => {
   console.log(`Server running on http://localhost:${port}`);
 });
 //Just some comments here
