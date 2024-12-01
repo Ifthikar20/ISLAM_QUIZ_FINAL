@@ -1,0 +1,7 @@
+awesome-blog-nextjs/node_modules
+quiz-backend/node_modules
+awesome-blog-nextjs/dist/
+quiz-backend/dist/
+awesome-blog-nextjs/.env
+quiz-backend/.env
+awesome-blog-nextjs/.next/
