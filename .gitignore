@@ -1,7 +1,10 @@
 awesome-blog-nextjs/node_modules
-quiz-backend/node_modules
+server/node_modules
+
 awesome-blog-nextjs/dist/
-quiz-backend/dist/
+
 awesome-blog-nextjs/.env
-quiz-backend/.env
+server/.env
+
 awesome-blog-nextjs/.next/
+server/.next/
